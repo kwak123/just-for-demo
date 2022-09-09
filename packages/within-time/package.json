@@ -1,0 +1,30 @@
+{
+  "name": "within-time",
+  "version": "0.2.1",
+  "description": "Run Node.js files with a set timeout",
+  "main": "index.js",
+  "repository": "https://github.com/kwak123/within-time",
+  "author": "kwak123 <kwak123@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "test": "NODE_ENV=test jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^25.1.4",
+    "jest": "^25.1.0",
+    "ps-node": "^0.1.6"
+  },
+  "dependencies": {
+    "chalk": "^3.0.0"
+  },
+  "bin": {
+    "within-time": "./index.js"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}
